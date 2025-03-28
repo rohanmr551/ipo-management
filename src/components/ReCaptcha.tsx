@@ -15,7 +15,7 @@ const ReCaptchaComponent =()=>{
 return (
     <div className="mt-4">
       <ReCAPTCHA
-        sitekey="6LcWUAIrAAAAAM5pASbPNyYt_BmwigKfuwZMKeNV" 
+        sitekey="6LfxXgIrAAAAAOt1NFFFzPfLo-MMwZan6gFJzFM2" 
         onChange={handleReCaptcha}
       />
       {verified && <p className="text-green-600 mt-2">✔ Verified</p>}
